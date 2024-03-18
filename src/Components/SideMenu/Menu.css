@@ -1,0 +1,26 @@
+.SideMenu{
+    background-color: rgb(69, 126, 184);
+    cursor: pointer;
+    overflow: auto;
+    height: 81vh;
+    width: 13vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+    .container{
+        border-radius: 0.7rem;
+        padding: 10px;
+    }
+    .list{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        height: 45px;
+    }
+        .list p{
+            font-size: 20px;
+        }
+    
+

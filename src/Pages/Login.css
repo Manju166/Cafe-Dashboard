@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    margin-top: 40px;
+}
+    .login-container{
+        background-color: rgb(179, 179, 45);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100%;
+        width: calc(600px + 2vh);
+        gap: 10px;
+        border-radius: 20px;
+    }
+    .login-img img{
+        height: 40vh;
+        width: calc(60px + 14vw);
+    }
+.login-text{
+    display: flex;
+    top: 200px;
+    flex-direction: column;
+    margin-right: 20px;
+
+h1{
+    align-items: center;
+    font-size: 2.5em;
+    font-family: "Allura", cursive;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.input-field{
+    display: flex;
+    flex-direction: row;
+}
+.input-field label{
+    font-size: 20px;
+}
+input[type="text"], input[type="password"]{
+    height: 3em;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 0.5em;     
+    text-align: left;    
+}
+.signinbtn{
+    height: 4.5vh;
+    width: 13vw;
+    margin: 0.5rem 3.5rem;
+    cursor: pointer;
+    background-color: #f89c3a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+p{
+    margin-left: 1.5rem;
+    text-decoration: underline;
+}
+.signupbtn{
+    margin-left: 5.5rem;
+}
+}

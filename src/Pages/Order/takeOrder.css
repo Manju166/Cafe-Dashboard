@@ -1,0 +1,78 @@
+
+.go-backbtn {
+    margin: 20px 0 0 20px;
+}
+
+.tableHeading {
+    margin: 0 20px 0 20px;
+}
+.take-order-input {
+    display: flex;
+    margin: 20px 20px 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+    .take-order-input p{
+        width: 54%;
+    }
+   .take-order-input p:last-of-type {
+        width: 38%;
+    }
+.takeorder {
+    padding: 0px 20px 10px 20px;
+}
+    .takeorder .takeorder-item{
+        background-color: whitesmoke;
+        border-radius: 4px;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 0.2s ease-in-out;
+        margin-top: 10px;
+    }
+       .takeorder-item p {
+            
+            padding: 10px;
+        }
+        .takeorder-item p:first-of-type {
+
+            width: 60%;
+        }
+        .takeorder-item p:nth-of-type(2) {
+
+            width: 15%;
+        }
+        .takeorder-item p:last-of-type {
+            margin-right: 1vw;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 10px;
+            width: 20%;
+        }
+        .takeorder-item:hover {
+            transition: all 0.2s ease-in-out;
+            background-color: rgb(87, 56, 87);
+            cursor: pointer;
+        }
+           .takeorder-item p {
+                color: white;
+            }
+.takeorder-item-header {
+    display: flex;
+    background-color: white;
+}
+    .takeorder-item-header:hover {
+        background-color: white;
+    }
+        .takeorder-item-header p {
+            color: black;
+        }
+    .takeorder-item-header p {
+        font-weight: bold;
+        padding: 5px 10px;
+    }
+.take-order-submit {
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 20px 20px 0;
+    padding-bottom: 30px;
+}
